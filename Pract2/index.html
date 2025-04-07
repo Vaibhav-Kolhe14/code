@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Client Website</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    .heading {
+      color: darkblue;
+      text-align: center;
+    }
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 20px auto;
+    }
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Heading -->
+  <h1 class="heading">Welcome to My Client's Website</h1>
+  <h2>About Us</h2>
+
+  <!-- Paragraph with Inline CSS -->
+  <p style="color: green; font-size: 18px;">
+    This is a sample client website showcasing HTML and CSS features.
+  </p>
+
+  <!-- Image -->
+  <img src="images/logo.png" alt="Client Logo" width="150">
+
+  <!-- Text Link -->
+  <p>Visit our <a href="https://www.example.com">main website</a>.</p>
+
+  <!-- Image Link -->
+  <a href="https://www.google.com">
+    <img src="images/logo.png" alt="Go to Google" width="80">
+  </a>
+
+  <!-- Lists -->
+  <h3>Our Services</h3>
+  <ul>
+    <li>Web Design</li>
+    <li>Digital Marketing</li>
+    <li>SEO Optimization</li>
+  </ul>
+
+  <h3>Contact Info</h3>
+  <ol>
+    <li>Phone: 123-456-7890</li>
+    <li>Email: info@client.com</li>
+  </ol>
+
+  <!-- Table -->
+  <h3>Pricing Table</h3>
+  <table>
+    <tr>
+      <th>Service</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Web Design</td>
+      <td>$500</td>
+    </tr>
+    <tr>
+      <td>SEO</td>
+      <td>$300</td>
+    </tr>
+  </table>
+
+  <!-- Form -->
+  <h3>Contact Us</h3>
+  <form>
+    <label>Name:</label>
+    <input type="text" name="name"><br><br>
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+    <label>Message:</label><br>
+    <textarea rows="4" cols="40" name="message"></textarea><br><br>
+    <input type="submit" value="Send">
+  </form>
+
+  <!-- Frame using iframe -->
+  <h3>Our Location (Google Maps)</h3>
+  <iframe src="https://www.google.com/maps/embed?..." title="Location"></iframe>
+
+</body>
+</html>
