@@ -1,0 +1,16 @@
+/* styles.css */
+h2, h3 {
+    color: darkred;
+    text-decoration: underline;
+  }
+  form {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: auto;
+  }
+  input, textarea {
+    width: 90%;
+  }
+  
